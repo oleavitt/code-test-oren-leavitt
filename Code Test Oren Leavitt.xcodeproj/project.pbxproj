@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB0A6AD1F75E3B3008C7D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0A6AC1F75E3B3008C7D55 /* AppDelegate.swift */; };
+		8CB0A6B21F75E3B3008C7D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0A6B01F75E3B3008C7D55 /* Main.storyboard */; };
+		8CB0A6B41F75E3B4008C7D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0A6B31F75E3B4008C7D55 /* Assets.xcassets */; };
+		8CB0A6B71F75E3B4008C7D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0A6B51F75E3B4008C7D55 /* LaunchScreen.storyboard */; };
+		8CB0A6C21F75E3B4008C7D55 /* Code_Test_Oren_LeavittTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0A6C11F75E3B4008C7D55 /* Code_Test_Oren_LeavittTests.swift */; };
+		8CB0A6D21F75E6FF008C7D55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0A6D11F75E6FF008C7D55 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB0A6BE1F75E3B4008C7D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB0A6A11F75E3B3008C7D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB0A6A81F75E3B3008C7D55;
+			remoteInfo = "Code Test Oren Leavitt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB0A6A91F75E3B3008C7D55 /* Code Test Oren Leavitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Test Oren Leavitt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB0A6AC1F75E3B3008C7D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB0A6B11F75E3B3008C7D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB0A6B31F75E3B4008C7D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB0A6B61F75E3B4008C7D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB0A6B81F75E3B4008C7D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB0A6BD1F75E3B4008C7D55 /* Code Test Oren LeavittTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code Test Oren LeavittTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB0A6C11F75E3B4008C7D55 /* Code_Test_Oren_LeavittTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Test_Oren_LeavittTests.swift; sourceTree = "<group>"; };
+		8CB0A6C31F75E3B4008C7D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB0A6D11F75E6FF008C7D55 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB0A6A61F75E3B3008C7D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0A6BA1F75E3B4008C7D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB0A6A01F75E3B3008C7D55 = {
+			isa = PBXGroup;
+			children = (
+				8CB0A6AB1F75E3B3008C7D55 /* Code Test Oren Leavitt */,
+				8CB0A6C01F75E3B4008C7D55 /* Code Test Oren LeavittTests */,
+				8CB0A6AA1F75E3B3008C7D55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB0A6AA1F75E3B3008C7D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0A6A91F75E3B3008C7D55 /* Code Test Oren Leavitt.app */,
+				8CB0A6BD1F75E3B4008C7D55 /* Code Test Oren LeavittTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB0A6AB1F75E3B3008C7D55 /* Code Test Oren Leavitt */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0A6CE1F75E539008C7D55 /* ViewControllers */,
+				8CB0A6CD1F75E52C008C7D55 /* Views */,
+				8CB0A6CC1F75E512008C7D55 /* Model */,
+				8CB0A6AC1F75E3B3008C7D55 /* AppDelegate.swift */,
+				8CB0A6B01F75E3B3008C7D55 /* Main.storyboard */,
+				8CB0A6B31F75E3B4008C7D55 /* Assets.xcassets */,
+				8CB0A6B51F75E3B4008C7D55 /* LaunchScreen.storyboard */,
+				8CB0A6B81F75E3B4008C7D55 /* Info.plist */,
+			);
+			path = "Code Test Oren Leavitt";
+			sourceTree = "<group>";
+		};
+		8CB0A6C01F75E3B4008C7D55 /* Code Test Oren LeavittTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0A6C11F75E3B4008C7D55 /* Code_Test_Oren_LeavittTests.swift */,
+				8CB0A6C31F75E3B4008C7D55 /* Info.plist */,
+			);
+			path = "Code Test Oren LeavittTests";
+			sourceTree = "<group>";
+		};
+		8CB0A6CC1F75E512008C7D55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8CB0A6CD1F75E52C008C7D55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8CB0A6CE1F75E539008C7D55 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0A6D11F75E6FF008C7D55 /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB0A6A81F75E3B3008C7D55 /* Code Test Oren Leavitt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB0A6C61F75E3B4008C7D55 /* Build configuration list for PBXNativeTarget "Code Test Oren Leavitt" */;
+			buildPhases = (
+				8CB0A6A51F75E3B3008C7D55 /* Sources */,
+				8CB0A6A61F75E3B3008C7D55 /* Frameworks */,
+				8CB0A6A71F75E3B3008C7D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code Test Oren Leavitt";
+			productName = "Code Test Oren Leavitt";
+			productReference = 8CB0A6A91F75E3B3008C7D55 /* Code Test Oren Leavitt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB0A6BC1F75E3B4008C7D55 /* Code Test Oren LeavittTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB0A6C91F75E3B4008C7D55 /* Build configuration list for PBXNativeTarget "Code Test Oren LeavittTests" */;
+			buildPhases = (
+				8CB0A6B91F75E3B4008C7D55 /* Sources */,
+				8CB0A6BA1F75E3B4008C7D55 /* Frameworks */,
+				8CB0A6BB1F75E3B4008C7D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB0A6BF1F75E3B4008C7D55 /* PBXTargetDependency */,
+			);
+			name = "Code Test Oren LeavittTests";
+			productName = "Code Test Oren LeavittTests";
+			productReference = 8CB0A6BD1F75E3B4008C7D55 /* Code Test Oren LeavittTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB0A6A11F75E3B3008C7D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Oren Leavitt";
+				TargetAttributes = {
+					8CB0A6A81F75E3B3008C7D55 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2W2GK9ZGZC;
+						ProvisioningStyle = Automatic;
+					};
+					8CB0A6BC1F75E3B4008C7D55 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2W2GK9ZGZC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CB0A6A81F75E3B3008C7D55;
+					};
+				};
+			};
+			buildConfigurationList = 8CB0A6A41F75E3B3008C7D55 /* Build configuration list for PBXProject "Code Test Oren Leavitt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB0A6A01F75E3B3008C7D55;
+			productRefGroup = 8CB0A6AA1F75E3B3008C7D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB0A6A81F75E3B3008C7D55 /* Code Test Oren Leavitt */,
+				8CB0A6BC1F75E3B4008C7D55 /* Code Test Oren LeavittTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB0A6A71F75E3B3008C7D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0A6B71F75E3B4008C7D55 /* LaunchScreen.storyboard in Resources */,
+				8CB0A6B41F75E3B4008C7D55 /* Assets.xcassets in Resources */,
+				8CB0A6B21F75E3B3008C7D55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0A6BB1F75E3B4008C7D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB0A6A51F75E3B3008C7D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0A6AD1F75E3B3008C7D55 /* AppDelegate.swift in Sources */,
+				8CB0A6D21F75E6FF008C7D55 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0A6B91F75E3B4008C7D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0A6C21F75E3B4008C7D55 /* Code_Test_Oren_LeavittTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB0A6BF1F75E3B4008C7D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB0A6A81F75E3B3008C7D55 /* Code Test Oren Leavitt */;
+			targetProxy = 8CB0A6BE1F75E3B4008C7D55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB0A6B01F75E3B3008C7D55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB0A6B11F75E3B3008C7D55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB0A6B51F75E3B4008C7D55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB0A6B61F75E3B4008C7D55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB0A6C41F75E3B4008C7D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB0A6C51F75E3B4008C7D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB0A6C71F75E3B4008C7D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W2GK9ZGZC;
+				INFOPLIST_FILE = "Code Test Oren Leavitt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orenleavitt.Code-Test-Oren-Leavitt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8CB0A6C81F75E3B4008C7D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W2GK9ZGZC;
+				INFOPLIST_FILE = "Code Test Oren Leavitt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orenleavitt.Code-Test-Oren-Leavitt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8CB0A6CA1F75E3B4008C7D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2W2GK9ZGZC;
+				INFOPLIST_FILE = "Code Test Oren LeavittTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orenleavitt.Code-Test-Oren-LeavittTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code Test Oren Leavitt.app/Code Test Oren Leavitt";
+			};
+			name = Debug;
+		};
+		8CB0A6CB1F75E3B4008C7D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2W2GK9ZGZC;
+				INFOPLIST_FILE = "Code Test Oren LeavittTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orenleavitt.Code-Test-Oren-LeavittTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code Test Oren Leavitt.app/Code Test Oren Leavitt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB0A6A41F75E3B3008C7D55 /* Build configuration list for PBXProject "Code Test Oren Leavitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0A6C41F75E3B4008C7D55 /* Debug */,
+				8CB0A6C51F75E3B4008C7D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB0A6C61F75E3B4008C7D55 /* Build configuration list for PBXNativeTarget "Code Test Oren Leavitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0A6C71F75E3B4008C7D55 /* Debug */,
+				8CB0A6C81F75E3B4008C7D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB0A6C91F75E3B4008C7D55 /* Build configuration list for PBXNativeTarget "Code Test Oren LeavittTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0A6CA1F75E3B4008C7D55 /* Debug */,
+				8CB0A6CB1F75E3B4008C7D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB0A6A11F75E3B3008C7D55 /* Project object */;
+}
